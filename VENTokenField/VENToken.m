@@ -77,7 +77,7 @@
 
 - (void)setFont:(UIFont *)font {
     _font = font;
-    [self setTitleText:self.titleLabel.text];
+    [self setTitleText:self.titleLabel.attributedText];
 }
 
 
